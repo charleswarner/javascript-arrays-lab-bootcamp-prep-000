@@ -21,5 +21,5 @@ return kittens.shift();
 }
 
 function appendKitchen(name) {
-
+kittensOne = kittens.push(name);
 }
