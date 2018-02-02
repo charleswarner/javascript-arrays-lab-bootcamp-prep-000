@@ -12,7 +12,7 @@ return kittens.unshift(name);
 
 }
 function destructivelyRemoveLastKitten() {
-
+return kittens.pop();
 }
 
 function destructivelyRemoveFirstKitten() {
