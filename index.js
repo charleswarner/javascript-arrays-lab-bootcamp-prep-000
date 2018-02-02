@@ -16,12 +16,10 @@ return kittens.pop();
 }
 
 function destructivelyRemoveFirstKitten() {
+return kittens.shift();
 
-
-return [...kittens,
 }
 
 function appendKitchen(name) {
-
 
 }
