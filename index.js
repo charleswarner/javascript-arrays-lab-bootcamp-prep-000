@@ -20,6 +20,6 @@ return kittens.shift();
 
 }
 
-function appendKitchen(name) {
-return [kittens, ...name];
+function appendKitten(name) {
+var [kittens, ...name];
 }
